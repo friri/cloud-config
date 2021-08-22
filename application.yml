@@ -6,3 +6,8 @@ eureka:
           defaultZone: http://localhost:8761/eureka/
       instance:
         hostname: localhost    
+        
+microservice:
+      endpoints:
+        endpoint:
+          url:http://forexservice/forex/currency-exchange/from/        
