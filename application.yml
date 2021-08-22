@@ -10,4 +10,4 @@ eureka:
 microservice:
       endpoints:
         endpoint:
-          uri: "/forex/currency-exchange/from/{from}/to/{to}       
+          uri: /forex/currency-exchange/from/{from}/to/{to}       
