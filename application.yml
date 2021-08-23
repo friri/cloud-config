@@ -12,4 +12,4 @@ microservice:
     endpoint:
       uri: /forex/currency-exchange/from/{from}/to/{to}
 test:
-  value: friri alryah
+  value: friri
