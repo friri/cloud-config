@@ -13,3 +13,5 @@ microservice:
       uri: /forex/currency-exchange/from/{from}/to/{to}
 test:
   value: friri
+logging:
+  file: C:/logs/elk-stack.log  
