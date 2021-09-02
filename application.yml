@@ -6,7 +6,12 @@ eureka:
       defaultZone: http://localhost:8001/eureka/
   instance:
     hostname: localhost
-
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 60000
+        readTimeout: 10000
 microservice:
   endpoints:
     endpoint:
